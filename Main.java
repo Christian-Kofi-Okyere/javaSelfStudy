@@ -22,12 +22,40 @@
 //     }
 // }
 
-import java.util.Date;
+// // import java.util.Date;
 
-public class Main {
-    public static void main(String[] args){
-        byte age = 30;
-        Date now = new Date();
-        System.out.println(now);  // you can type sout + tab as shortcut for System.out.println();
-    }
-}
+// public class Main {
+//     public static void main(String[] args){
+//         byte age = 30;
+//         Date now = new Date();
+//         System.out.println(now);  // you can type sout + tab as shortcut for System.out.println();
+
+//     }
+// }
+
+//difference between premitive and reference variables
+// primitive variables are independent of each other: changing one doesn't affect the other
+// reference variables are dependent on each other: changing one affects the other
+
+// //primitive
+
+// public class Main{
+//     public static void main(String[] args){
+//         byte x = 1;
+//         byte y = x;
+//         x = 2;
+//         System.out.println(y);  // we can verify in our console that changing x doesn't affect y
+//     }
+// }
+
+// // reference
+
+// import java.awt.*;
+// public class Main{
+//     public static void main(String[] args){
+//         Point point1 = new Point(2,3);
+//         Point point2 = point1;
+//         point1.x = 5;
+//         System.out.println(point2); // we can verify in our console that changing x in point1 affects the x in point2  
+//     }
+// }
