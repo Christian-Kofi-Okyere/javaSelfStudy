@@ -59,3 +59,21 @@
 //         System.out.println(point2); // we can verify in our console that changing x in point1 affects the x in point2  
 //     }
 // }
+
+// // strings in Java // NB: strings are reference types in Java
+// public class Main{
+//     public static void main(String[] args){
+//         String message = "  Hello World" + "!! ";
+//         //Boolean lam = message.endsWith("!!");
+//         //Integer lam = message.length();
+//         //Boolean lam = message.startsWith("!!");
+//         //Integer lam = message.indexOf("orl");
+
+//         // String lam = message.replace("!", "*"); // NB: original string is not modified. it just creates a new string
+//         // System.out.println(message);
+//         // String lam = message.toLowerCase();
+//         // String lam = message.toUpperCase();
+//         // String lam = message.trim();  // gets rid of whute spaces // test case: String message = "  Hello World" + "!! ";
+//         System.out.println(lam); 
+//     }
+// }
